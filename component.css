@@ -131,6 +131,7 @@ a:hover{
   width: 1/4em;
   height: 128px;
   background-color: gray;
+  display: flex;
 }
 .sidebar .fsb{
   width: 128px;
