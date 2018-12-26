@@ -107,7 +107,7 @@ body{
     padding-left: 30px;
     padding-top: 10px;
     opacity: 0;
-    position: absolute;
+    position: relative;
     width: 80px;
     height: 100px;
     background-color: white;
@@ -126,4 +126,31 @@ a {
 }
 a:hover{
   color: purple;
+}
+.outside{
+  width: 1/4em;
+  height: 128px;
+  background-color: gray;
+}
+.sidebar .fsb{
+  width: 128px;
+  height: 128px;
+  background-color: #DDD;
+  background-image: url('https://static-zmp3.zadn.vn/skins/zmp3-v5.1/images/discover_cover_240.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial,sans-serif;
+  color: #FFF;
+  font-size: 20px;
+}
+.fsb .fsb-img{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+.fsb:hover .fsb-img{
+    background-color: rgba(0, 0, 0, 0.6);
 }
